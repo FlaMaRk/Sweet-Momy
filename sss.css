@@ -1,0 +1,280 @@
+body {
+    background: url(сименем.png);
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+}
+#canvas {
+    position: absolute;
+    top: -100px;
+    z-index: 2;
+}
+
+    .hed {
+        width: 1920px;
+        height: 100px;
+        background: rgba(100, 9, 27, 0.171);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.164) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.123) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.123) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.397);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      
+.name {
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgb(255, 0, 128);
+    left: 700px;
+    top: 5px;
+}
+.main {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(255, 0, 128);
+    left: 100px;
+    top: 20px;
+}
+.bar {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(255, 0, 128);
+    left: 350px;
+    top: 40px;
+}
+.bar:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 4px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.bar:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 4px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.uslugi {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(255, 0, 128);
+    left: 1300px;
+    top: 40px;
+}
+.uslugi:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 4px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.uslugi:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 4px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.shalava {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(255, 0, 128);
+    left: 1600px;
+    top: 20px;
+}
+.shalava:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 4px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.shalava:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 4px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.nam {
+    position: absolute;
+    color: aliceblue;
+    font-size: 3em;
+    top: -60px;
+    left: 80px;
+    font-family: cursive;
+    
+}
+.man {
+    position: absolute;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: cursive;
+    top: -10px;
+    left: 35px;
+    text-decoration: none;
+}
+.man:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 4px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.man:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 4px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.barr {
+    position: absolute;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: cursive;
+    top: -10px;
+    left: 50px;
+    text-decoration: none;
+}
+.uslug {
+    position: absolute;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: cursive;
+    top: 0px;
+    left: 40px;
+    text-decoration: none;
+}
+.lava {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        font-family: cursive;
+        top: -5px;
+        left: 55px;
+        text-decoration: none;
+}
+.foto1 {
+    position: absolute;
+    width: 600px;
+    height: 560px;
+    background: url(https://bond.gifts/app/uploads/2021/03/11.jpg);
+    top: 370px;
+    left: 150px;
+    border: 1px solid rgb(255, 0, 128);
+}
+.foto2 {
+    position: absolute;
+    width: 600px;
+    height: 560px;
+    background: url(https://img.restoclub.ru/uploads/place/b/8/7/e/b87e0dd3a23d4e475d42b17881a40bc8_w958_h835--big.jpg);
+    color: aliceblue;
+    top: 370px;
+    left: 1150px;
+    text-align: center;
+    font-size: 4em;
+    border: 1px solid rgb(255, 0, 128);
+}
+.texx {
+    position: absolute;
+    color: aliceblue;
+    font-size: 1.4em;
+    top: 950px;
+    text-align: center;
+}
+.copy {
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    top: 1100px;
+        background: rgba(39, 3, 11, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(43, 0, 16, 0.377) inset,
+                    0 -220px 70px -120px rgba(34, 0, 12, 0.35) inset,
+                    0 -280px 70px -120px rgba(39, 8, 8, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(34, 0, 49, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(31, 12, 36, 0.35) inset,
+                      0 -210px 70px -120px rgba(4, 0, 36, 0.35) inset,
+                      0 -280px 70px -120px rgba(32, 0, 32, 0.35) inset;
+        }
+      }
+      .cop {
+        color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+      }
+      .cop::selection {
+        background-color: black;
+        color: red;
+      }
+      .copp {
+        color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+      }
+      .copp::selection {
+        background-color: black;
+        color: red;
+      }
+      

@@ -1,0 +1,618 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.hed {
+    width: 1920px;
+    height: 100px;
+    background: rgba(100, 9, 27, 0.35);
+    box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+    animation: background 5s infinite alternate;
+  }
+  
+  @keyframes background {
+    50% {
+      background: rgba(106, 0, 151, 0.692);
+      box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                  0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                  0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+    }
+  }
+  
+.name18 {
+position: absolute;
+width: 500px;
+height: 60px;
+background-color: rgba(0, 0, 0, 0.4);
+border: 2px solid rgb(255, 0, 128);
+left: 700px;
+top: 5px;
+}
+.main {
+position: absolute;
+width: 200px;
+height: 35px;
+background-color: rgba(0, 0, 0, 0.4);
+border: 1px solid rgb(255, 0, 128);
+left: 100px;
+top: 20px;
+}
+.bar {
+position: absolute;
+width: 160px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+border: 1px solid rgb(255, 0, 128);
+left: 350px;
+top: 40px;
+}
+.bar:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.bar:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.uslugi {
+position: absolute;
+width: 200px;
+height: 50px;
+background-color: rgba(0, 0, 0, 0.4);
+border: 1px solid rgb(255, 0, 128);
+left: 1300px;
+top: 40px;
+}
+.uslugi:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.uslugi:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.shalava {
+position: absolute;
+width: 250px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.4);
+border: 1px solid rgb(255, 0, 128);
+left: 1600px;
+top: 20px;
+}
+.shalava:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.shalava:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+.nam {
+position: absolute;
+color: aliceblue;
+font-size: 3em;
+top: -60px;
+left: 80px;
+font-family: cursive;
+
+}
+.man {
+position: absolute;
+color: aliceblue;
+font-size: 2em;
+font-family: cursive;
+top: -10px;
+left: 35px;
+text-decoration: none;
+}
+.man:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(137, 26, 241);
+    transition: width 0.5s; 
+}
+
+.man:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 3px;
+    background-color: rgb(209, 21, 68);
+    transition: width 0.5s;
+}
+
+.barr {
+position: absolute;
+color: aliceblue;
+font-size: 2em;
+font-family: cursive;
+top: -10px;
+left: 50px;
+text-decoration: none;
+}
+.uslug {
+position: absolute;
+color: aliceblue;
+font-size: 2em;
+font-family: cursive;
+top: 0px;
+left: 40px;
+text-decoration: none;
+}
+.lava {
+    position: absolute;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: cursive;
+    top: -5px;
+    left: 55px;
+    text-decoration: none;
+}
+.dev1 {
+  position: absolute;
+  background: url(s1.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 220px;
+  left: 70px;
+}
+.dev2 {
+  position: absolute;
+  background: url(s3.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 220px;
+  left: 520px;
+}
+.dev3 {
+  position: absolute;
+  background: url(s4.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 220px;
+  left: 970px;
+}
+.dev4 {
+  position: absolute;
+  background: url(s5.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 220px;
+  left: 1420px;
+}
+.dev5 {
+  position: absolute;
+  background: url(s7.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 920px;
+  left: 70px;
+}
+.dev6 {
+  position: absolute;
+  background: url(s8.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 920px;
+  left: 520px;
+}
+.dev7 {
+  position: absolute;
+  background: url(s9.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 920px;
+  left: 970px;
+}
+.dev8 {
+  position: absolute;
+  background: url(s10.jpg);
+  width: 400px;
+  height: 600px;
+  border: 1px solid rgb(255, 0, 128);
+  top: 920px;
+  left: 1420px;
+  
+}
+.name11 {
+  position: absolute;
+  width: 1000px;
+  height: 50px;
+  left: 600px;
+  top: 50px;
+}
+.nam1 {
+  color: aliceblue;
+  font-size: 4em;
+}
+
+.mom {
+  width: 1920px;
+  height: 100px;
+  color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, red, fuchsia);
+  
+}
+
+.copy {
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    top: 1600px;
+        background: rgba(39, 3, 11, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(43, 0, 16, 0.377) inset,
+                    0 -220px 70px -120px rgba(34, 0, 12, 0.35) inset,
+                    0 -280px 70px -120px rgba(39, 8, 8, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(34, 0, 49, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(31, 12, 36, 0.35) inset,
+                      0 -210px 70px -120px rgba(4, 0, 36, 0.35) inset,
+                      0 -280px 70px -120px rgba(32, 0, 32, 0.35) inset;
+        }
+      }
+      .cop {
+        color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+      }
+      .cop::selection {
+        background-color: black;
+        color: red;
+      }
+      .copp {
+        color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+      }
+      .copp::selection {
+        background-color: black;
+        color: red;
+      }
+
+      .shalava1 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 822px;
+        left: 140px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava2 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 822px;
+        left: 600px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava3 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 822px;
+        left: 1050px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava4 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 822px;
+        left: 1500px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava5 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 1522px;
+        left: 140px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava6 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 1522px;
+        left: 600px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava7 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 1522px;
+        left: 1050px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .shalava8 {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: 1522px;
+        left: 1500px;
+        border: 1px solid white;
+        background: rgba(100, 9, 27, 0.35);
+        box-shadow: 0 -150px 70px -120px rgba(139, 4, 56, 0.35) inset,
+                    0 -220px 70px -120px rgba(61, 1, 21, 0.35) inset,
+                    0 -280px 70px -120px rgba(71, 10, 10, 0.35) inset;
+        animation: background 5s infinite alternate;
+      }
+      
+      @keyframes background {
+        50% {
+          background: rgba(106, 0, 151, 0.692);
+          box-shadow: 0 -140px 70px -120px rgba(118, 46, 136, 0.35) inset,
+                      0 -210px 70px -120px rgba(10, 0, 104, 0.35) inset,
+                      0 -280px 70px -120px rgba(70, 0, 70, 0.35) inset;
+        }
+      }
+      .name1 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 60px;
+        font-family: sans-serif;
+      }
+      .name2 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 80px;
+        font-family: sans-serif;
+      }
+      .name3 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 70px;
+        font-family: sans-serif;
+      }
+      .name4 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 70px;
+        font-family: sans-serif;
+      }
+      .name5 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 70px;
+        font-family: sans-serif;
+      }
+      .name6 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 90px;
+        font-family: sans-serif;
+      }
+      .name7 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 60px;
+        font-family: sans-serif;
+      }
+      .name8 {
+        position: absolute;
+        color: aliceblue;
+        font-size: 2em;
+        top: -30px;
+        left: 70px;
+        font-family: sans-serif;
+      }
+      .god {
+        position: absolute;
+        width: 300px;
+        height: 35px;
+        left: 1020px;
+        top: 180px;
+        background-color: rgb(0, 0, 0);
+        border: 3px solid rgb(255, 166, 0);
+      }
+      .good {
+        position: absolute;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(to right, red, fuchsia);
+        font-size: 2.4em;
+        top: -46px;
+        left: 20px;
+      }
+      .korona {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: url(korona.png);
+        background-size: 100%;
+        left: 970px;
+        top: 180px;
+      }
+      .her {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        background: url(https://emoji-uc.akamaized.net/orig/27/1e06f228074c5021ac9ed7f536f6ac.png);
+        background-size: 100%;
+        left: 1330px;
+        top: 183px;
+      }
